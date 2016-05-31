@@ -74,9 +74,9 @@ p {
 }
 .sidebar li:hover {
 	background-color: #f9f9f9;
-	padding: 0 0 0 2px;
+	width: 244px;
+	padding-left: 6px;
 }
-
 /* =========================ARTICLE==========================*/
 .article {
 	display: inline-block;
