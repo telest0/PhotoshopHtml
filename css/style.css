@@ -17,31 +17,31 @@ p {
 	font-size: 13px;
 	line-height: 1.3em;
 }
+
 .container {
 	margin: 0 auto;
-	
 }
 
-/* HEADER*/
+/* ======================================HEADER======================*/
 .logo {
 	margin: 30px;
 }
-/* NAV*/
+/* =================================NAV==============================*/
 .page-navigation {
 	margin-right: 30px;
-
 }
 .page-navigation div {
 	line-height: 40px;
 	margin-left: 30px;
 	background-color: #4e4d4d;
-
 }
 .page-navigation li {
 	width: 130px;
-	display: inline-block;
+	display: inline;
+	padding: .5em 5%;
+	border-left: 1px solid #4e4d4d;
+    border-right: 1px solid #4e4d4d;
 	text-align: center;
-	
 }
 .page-navigation a {
 	color: white;
@@ -50,20 +50,17 @@ p {
 .page-navigation li:hover {
 	height: 100%;
 	background-color: #353535;
-	border: solid 1px grey; 
+	border: 1px solid grey; 
 }
-/* MAIN*/
+/* ===================================MAIN================================*/
 /* SIDEBAR */
 .main_conteiner div {
 	margin-top:  40px;
 	margin-left: 30px;
-	/*display: block;*/
 
 }
 .sidebar {
-	
 	float: left;
-	
 }
 .sidebar li {
 	width: 250px;
@@ -80,14 +77,10 @@ p {
 	padding: 0 0 0 2px;
 }
 
-/* ARTICLE*/
+/* =========================ARTICLE==========================*/
 .article {
-
-/*	float: left; */
 	display: inline-block;
 	width: 560px;
-	
-
 }
 .article img {
 	 border: solid 1px grey;
@@ -102,7 +95,7 @@ p {
 	text-align: justify;
 	color: grey;
 }
-/* FOOTER*/
+/*  =============================FOOTER==========================*/
 footer {
 	margin: 60px 30px 0 30px;
 }
@@ -122,9 +115,9 @@ footer {
 	text-decoration: underline;
 }
 .copyright {			
-			display: inline-block;
-			float: right;
-    		margin-right: 30px;  
-    		line-height: 40px;
+	display: inline-block;
+	float: right;
+    margin-right: 30px;  
+    line-height: 40px;
     		
 }
